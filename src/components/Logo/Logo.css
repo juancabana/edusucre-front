@@ -1,0 +1,27 @@
+.nav-wrapper-logo {
+  padding-left: 30px;
+  width: auto;
+  height: 100%;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-Logo {
+  color: aquamarine;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  margin: 0%;
+  color: aquamarine;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
