@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Login.css";
 import Logo from "./../../components/Logo/Logo";
+import { Switch } from "@mui/material";
+const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 class Login extends Component {
   render() {
@@ -14,7 +16,7 @@ class Login extends Component {
                 <h3 className="description-header-login">
                   ¿No tienes una cuenta?
                 </h3>
-                <a href="" className="contact-us">
+                <a href="mailto: juand.guerreroj@unac.edu.co" target="_blank" className="contact-us">
                   Contáctanos
                 </a>
               </div>
@@ -40,7 +42,10 @@ class Login extends Component {
                 type="password"
               />
             </div>
-            <div className="chechboxwrapper"></div>
+            <div className="chechboxwrapper">
+              <Switch  className="switchLogin" {...label} defaultChecked/>              
+              <h4 className="remember-password">Recuerda tu contraseña</h4>
+            </div>
             <button className="button-form">Inicia sesión</button>
           </div>
         </div>
