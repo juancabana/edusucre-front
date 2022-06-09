@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 import Header from "../../components/Header/Header";
+import './Institutions.css';
+import ListInstitutions from "../../components/ListInstitutions/ListInstitutions";
 
-class Institutions extends Component {
-  render() {
+
+const Institutions = () => {
+
+
     return (
-      <div>
+      <div className="Institutions">
         <Header />
-        <h1>Hellow, i'm institutions</h1>
+        <div className="content-list-institutions">
+          <ListInstitutions/>
+
+        </div>
+
+        
       </div>
     );
-  }
 }
 
 export default Institutions;

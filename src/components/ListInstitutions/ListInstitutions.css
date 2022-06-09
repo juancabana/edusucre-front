@@ -1,0 +1,55 @@
+.ListInstitutions{
+    display: flex;
+align-items: center;    flex-direction: column;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 90%;
+    min-width: 300px;    
+    height: auto;
+    background-color: #112240;
+
+}
+.wrapper-title-institutions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 60px);
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.wrapper-table-institutions{
+    width: calc(100% - 60px);
+}
+
+.title-table-institutions{
+    font-weight: 400;
+    color: #e6f1ff;
+    text-align: center;
+    margin: 0%;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container-data-institutions{
+    min-height: 40px;
+    border: solid 1px rgba(127, 255, 212, 0.699);
+    border-radius: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-data-institutions:hover{
+    background-color: rgba(127, 255, 212, 0.326);
+    color: white;
+    transition: 0.2s;
+}
+.text-name-institutions{
+    text-align: left;
+    background-color: transparent;
+    color: #e6f1ff;
+    border: solid 1px transparent;
+}

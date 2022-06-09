@@ -9,6 +9,7 @@ header {
   margin-top: 0%;
 }
 .navbar {
+  /* position: fixed; */
   /* background-color: #0A192F; */
   background: #0a192f;
   width: 100%;
